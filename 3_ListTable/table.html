@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Таблица, веб-страница">
+  <meta name="description" content="Таблица">
+  <title>Таблица</title>
+  
+  <style>
+	body {
+      margin: 0;
+      text-align: center;
+    }
+	
+	table {
+	margin: auto;
+	margin-top: 50vh;
+	transform: translateY(-50%);
+	text-align: center;
+	}
+	
+	table, th, td { border: 1px solid black; border-collapse: collapse; }
+  </style>
+</head>
+<body>
+
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="3">ячейка 1</td>
+                <td>ячейка 2</td>
+                <td rowspan="3">ячейка 3</td>
+            </tr>
+            <tr>
+                <td>ячейка 5</td>
+            </tr>
+            <tr>
+                <td>ячейка 8</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
